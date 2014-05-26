@@ -29,7 +29,3 @@ function count(dna){
 }
 
 program(fn);
-
-
-
-
