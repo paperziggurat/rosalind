@@ -8,7 +8,6 @@ if (process.argv.length < 3){
 var fn = process.argv[2];
 
 function program(filename) {
-    console.log("before read");
     fs.readFile(filename, 'utf8', function (err, data) {
         if (err) throw err;
         count(data);
